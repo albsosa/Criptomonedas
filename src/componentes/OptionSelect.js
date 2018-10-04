@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 
 class OptionSelect extends Component {
-    state = {  }
     render() { 
+        const {id, name} = this.props.moneda;
         return ( 
-            <option>Hola </option>
+            <option value={id}>{name} </option>
          );
     }
 }
